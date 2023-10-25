@@ -1,11 +1,15 @@
 # CD12352 - Infrastructure as Code Project Solution
-# [YOUR NAME HERE]
 
-## Spin up instructions
-TODO
+## Scripts
 
-## Tear down instructions
-TODO
+`CREATE STACK: 
+./create.sh <stack name> <YAML template file name> <JSON Parameter file name>
+`
 
-## Other considerations
-TODO (optional)# Deploy-Infrastructure-as-Code
+`UPDATE STACK: 
+./update.sh <stack name> <YAML template file name> <JSON Parameter file name>
+`
+
+`DELETE STACK: 
+./delete.sh <stack name> <YAML template file name> <JSON Parameter file name>
+`
